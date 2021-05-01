@@ -1,0 +1,5 @@
+[flake8]
+select = C,E,F,W,I,B,ANN,D,DAR
+max-complexity = 10
+import-order-style = google
+docstring-convention = google

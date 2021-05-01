@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "bpg"
+version = "0.1.0"
+description = "Convex-Concave Backtracking for Bregman Proximal Gradient"
+authors = ["lascauje <lascauje@foobar.org>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.20.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+flake8 = "^3.9.0"
+flake8-import-order = "^0.18.1"
+flake8-bugbear = "^21.4.3"
+flake8-annotations = "^2.6.2"
+flake8-docstrings = "^1.6.0"
+darglint = "^1.8.0"
+pytype = {version = "^2021.4.1", python = "3.9"}
+Sphinx = "^3.5.3"
+sphinx-autodoc-typehints = "^1.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bpg-main = "bpg.bpg:main"

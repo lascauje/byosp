@@ -1,0 +1,2 @@
+* Build Your Own Scientific Paper
+Please visit the [[https://lascauje.github.io/byosp/bin/doc/index.html][web documentation]].
